@@ -1,0 +1,4 @@
+﻿  bfs.cpp
+c:\users\administrator\documents\github\practice-algorithm\bfs\algorithm\bfs.cpp(10): warning C4018: “<”: 有符号/无符号不匹配
+  algorithm.vcxproj -> C:\Users\Administrator\Documents\GitHub\Practice-algorithm\bfs\algorithm\Debug\algorithm.exe
+  algorithm.vcxproj -> C:\Users\Administrator\Documents\GitHub\Practice-algorithm\bfs\algorithm\Debug\algorithm.pdb (Full PDB)
