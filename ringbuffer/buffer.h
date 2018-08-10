@@ -6,9 +6,6 @@
 		typeof(y) _y = (y);	\
 		(void) (&_x == &_y);	\
 		_x < _y ? _x : _y; })
-
-
-
     struct ringbuffer{
       void *data;
       unsigned int size;
@@ -25,10 +22,8 @@
     ssize_t ringbuffer_from_dev(int fd, struct ringbuffer *ring_buf, unsigned int len);
     unsigned int ringbuffer_is_empty(struct ringbuffer *ring_buf);
     unsigned int ringbuffer_is_full(struct ringbuffer *ring_buf);
-
     unsigned int ringbuffer_len(struct ringbuffer *ring_buf);
     unsigned int ringbuffer_space_left(struct ringbuffer *ring_buf);
-
     unsigned int ringbuffer_to_socket(int socket_fd, struct ringbuffer *ring_buf, unsigned int len);
 
 
