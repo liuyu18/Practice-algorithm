@@ -128,3 +128,39 @@ LinkListNode* Delete_After_LkList(LinkListNode* ptr){
 	ptr->pNext = fptr->pNext;
 	return fptr;
 }
+LinkListNode* Delete_i_LkList(LinkListNode* pHead, int i){
+	LinkListNode *ptr,*qPtr = NULL:
+	ptr = GetLinkListNode(pHead,i - 1);
+	if (ptr != NULL && ptr->pNext != NULL) {
+		qPtr = Delete_After_LkList(ptr);
+	}
+	return qPtr;
+}
+void ShowLkList(LinkListNode* pHead) {
+	LinkListNode* p = pHead->pNext;
+	while (p != NULL) {
+		printf(" %d", p->data);
+		p = p->pNext;
+	}
+}
+
+int main3(void) {
+	ElemType MySeq[] = { 1,2,3,4,5 };
+	LinkListNode* pHead = Create_Rear_LkList(MySeq, 5);
+	printf("\n********显示当前单链表中的全部元素******\n");
+	ShowLkList(pHead);
+	LinkListNode* pPos = GetLinkListNode(pHead, 2);
+	Insert_After_LkList(pPos, 999);
+	printf("\n********显示当前单链表中的全部元素******\n");
+	ShowLkList(pHead);
+	Insert_Before_LkList(pHead, pPos, 666);
+	printf("\n********显示当前单链表中的全部元素******\n");
+	ShowLkList(pHead);
+	//Delete_After_LkList(pPos);
+	Delete_i_LkList(pHead, 2);
+	printf("\n********显示当前单链表中的全部元素******\n");
+	ShowLkList(pHead);
+	printf("\nList Size:%d", GetSizeLinkList(pHead));
+	getchar();
+	return 0;
+}
