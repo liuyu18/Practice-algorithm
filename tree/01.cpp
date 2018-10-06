@@ -163,3 +163,57 @@ int TreeDepth_DLR(BitTree *pNode, int level) {
 	}
 	return hight;
 }
+//这个比较难
+BitTree* reConstructBinTree(int pre[], int startPre, int endPre,
+	int in[], int startIn, int endIn) {
+	if (startPre > endPre || startIn > endIn) {
+		return NULL;
+	}
+	BitTree* pNode = (BitTree*)malloc(sizeof(BitTree));
+	pNode->left = NULL;
+	pNode->right = NULL;
+	pNode->data = pre[startPre];
+	for (int i = startIn;i <= endIn;i++) {
+		if (in[i] == pre[startPre]) {
+			pNode->left = reConstructBinTree(pre, startPre + 1, startPre + i - startIn, in, startIn, i - 1);
+			pNode->right = reConstructBinTree(pre, i - startIn + startPre + 1, endPre, in, i + 1, endIn);
+		}
+	}
+	return pNode;
+}
+
+BitTree* Paths[10] = { 0 };
+void OutPutPath(){
+	int i = 0;
+	while (Paths[i] != NULL) {
+		printf("%d ", Paths[i]->data);
+		i++;
+	}
+	printf("\n");
+}
+void LeavesPath(BitTree *tree ,int level){
+    if(tree == NULL){
+        return;
+    }
+    Paths[level] = tree;
+    if((tree->left == NULL)&&(tree->right == NULL)){
+        Paths[level + 1] = NULL;
+        OutPutPath();
+        return;
+    }
+    LeavesPath(tree->left,level+1);
+    LeavesPath(tree->right,level+1);
+}
+BOOL isEqualTree(BitTree *t1,BitTree *t2){
+    if(t1 == NULL && t2 == NULL){
+        return TRUE;
+    }
+    if(!t1||!t2){
+        return FALSE;
+    }
+    if(t1->data == t2->data){
+        return isEqualTree(t1->left,t2->left) && isEqualTree(t1->right, t2->right);
+    }else{
+        return FALSE;
+    }
+}
