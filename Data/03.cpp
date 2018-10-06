@@ -31,7 +31,6 @@
 //	getchar();
 //	return 0;
 //}
-//Ctrl+a Ctrl+k Ctrl+C
 
 #include "LinkList.h"
 
