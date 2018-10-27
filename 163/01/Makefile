@@ -123,32 +123,59 @@ hello/fast:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
-LinkTable.o: LinkTable.cpp.o
+Revse.o: Revse.cpp.o
 
-.PHONY : LinkTable.o
+.PHONY : Revse.o
 
 # target to build an object file
-LinkTable.cpp.o:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/LinkTable.cpp.o
-.PHONY : LinkTable.cpp.o
+Revse.cpp.o:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/Revse.cpp.o
+.PHONY : Revse.cpp.o
 
-LinkTable.i: LinkTable.cpp.i
+Revse.i: Revse.cpp.i
 
-.PHONY : LinkTable.i
+.PHONY : Revse.i
 
 # target to preprocess a source file
-LinkTable.cpp.i:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/LinkTable.cpp.i
-.PHONY : LinkTable.cpp.i
+Revse.cpp.i:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/Revse.cpp.i
+.PHONY : Revse.cpp.i
 
-LinkTable.s: LinkTable.cpp.s
+Revse.s: Revse.cpp.s
 
-.PHONY : LinkTable.s
+.PHONY : Revse.s
 
 # target to generate assembly for a file
-LinkTable.cpp.s:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/LinkTable.cpp.s
-.PHONY : LinkTable.cpp.s
+Revse.cpp.s:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/Revse.cpp.s
+.PHONY : Revse.cpp.s
+
+arrayTable.o: arrayTable.cpp.o
+
+.PHONY : arrayTable.o
+
+# target to build an object file
+arrayTable.cpp.o:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/arrayTable.cpp.o
+.PHONY : arrayTable.cpp.o
+
+arrayTable.i: arrayTable.cpp.i
+
+.PHONY : arrayTable.i
+
+# target to preprocess a source file
+arrayTable.cpp.i:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/arrayTable.cpp.i
+.PHONY : arrayTable.cpp.i
+
+arrayTable.s: arrayTable.cpp.s
+
+.PHONY : arrayTable.s
+
+# target to generate assembly for a file
+arrayTable.cpp.s:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/arrayTable.cpp.s
+.PHONY : arrayTable.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hello"
-	@echo "... LinkTable.o"
-	@echo "... LinkTable.i"
-	@echo "... LinkTable.s"
+	@echo "... Revse.o"
+	@echo "... Revse.i"
+	@echo "... Revse.s"
+	@echo "... arrayTable.o"
+	@echo "... arrayTable.i"
+	@echo "... arrayTable.s"
 .PHONY : help
 
 

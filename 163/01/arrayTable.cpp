@@ -68,7 +68,7 @@ void showSeqList(SequenList* pList) {
 }
 
 
-int main(void) {
+int mains(void) {
 	lPtr = InitSeq();
 	if (lPtr) {
 		for (int i = 0;i < 10;i++) {
