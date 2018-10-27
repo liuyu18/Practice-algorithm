@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/SeqList.h
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/LinkList.h
 stdio.h
 -
 stdlib.h
 -
 
-/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/arrayTable.cpp
-SeqList.h
-/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/SeqList.h
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/LinkTable.cpp
+LinkList.h
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/LinkList.h
 

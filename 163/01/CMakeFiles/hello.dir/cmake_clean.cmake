@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hello.dir/arrayTable.cpp.o"
+  "CMakeFiles/hello.dir/LinkTable.cpp.o"
   "hello.pdb"
   "hello"
 )
