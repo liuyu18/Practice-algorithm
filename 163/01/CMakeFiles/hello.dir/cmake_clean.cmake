@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hello.dir/LinkRevse.cpp.o"
+  "CMakeFiles/hello.dir/cycleLink.cpp.o"
   "hello.pdb"
   "hello"
 )

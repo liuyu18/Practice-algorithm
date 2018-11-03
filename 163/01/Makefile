@@ -123,32 +123,32 @@ hello/fast:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
-LinkRevse.o: LinkRevse.cpp.o
+cycleLink.o: cycleLink.cpp.o
 
-.PHONY : LinkRevse.o
+.PHONY : cycleLink.o
 
 # target to build an object file
-LinkRevse.cpp.o:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/LinkRevse.cpp.o
-.PHONY : LinkRevse.cpp.o
+cycleLink.cpp.o:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/cycleLink.cpp.o
+.PHONY : cycleLink.cpp.o
 
-LinkRevse.i: LinkRevse.cpp.i
+cycleLink.i: cycleLink.cpp.i
 
-.PHONY : LinkRevse.i
+.PHONY : cycleLink.i
 
 # target to preprocess a source file
-LinkRevse.cpp.i:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/LinkRevse.cpp.i
-.PHONY : LinkRevse.cpp.i
+cycleLink.cpp.i:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/cycleLink.cpp.i
+.PHONY : cycleLink.cpp.i
 
-LinkRevse.s: LinkRevse.cpp.s
+cycleLink.s: cycleLink.cpp.s
 
-.PHONY : LinkRevse.s
+.PHONY : cycleLink.s
 
 # target to generate assembly for a file
-LinkRevse.cpp.s:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/LinkRevse.cpp.s
-.PHONY : LinkRevse.cpp.s
+cycleLink.cpp.s:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/cycleLink.cpp.s
+.PHONY : cycleLink.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hello"
-	@echo "... LinkRevse.o"
-	@echo "... LinkRevse.i"
-	@echo "... LinkRevse.s"
+	@echo "... cycleLink.o"
+	@echo "... cycleLink.i"
+	@echo "... cycleLink.s"
 .PHONY : help
 
 
