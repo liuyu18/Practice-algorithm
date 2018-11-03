@@ -57,27 +57,27 @@ include CMakeFiles/hello.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hello.dir/flags.make
 
-CMakeFiles/hello.dir/cycleLink.cpp.o: CMakeFiles/hello.dir/flags.make
-CMakeFiles/hello.dir/cycleLink.cpp.o: cycleLink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/cycleLink.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello.dir/cycleLink.cpp.o -c /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/cycleLink.cpp
+CMakeFiles/hello.dir/DoubleLinkedList.cpp.o: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/DoubleLinkedList.cpp.o: DoubleLinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/DoubleLinkedList.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello.dir/DoubleLinkedList.cpp.o -c /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/DoubleLinkedList.cpp
 
-CMakeFiles/hello.dir/cycleLink.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/cycleLink.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/cycleLink.cpp > CMakeFiles/hello.dir/cycleLink.cpp.i
+CMakeFiles/hello.dir/DoubleLinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/DoubleLinkedList.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/DoubleLinkedList.cpp > CMakeFiles/hello.dir/DoubleLinkedList.cpp.i
 
-CMakeFiles/hello.dir/cycleLink.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/cycleLink.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/cycleLink.cpp -o CMakeFiles/hello.dir/cycleLink.cpp.s
+CMakeFiles/hello.dir/DoubleLinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/DoubleLinkedList.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/DoubleLinkedList.cpp -o CMakeFiles/hello.dir/DoubleLinkedList.cpp.s
 
 # Object files for target hello
 hello_OBJECTS = \
-"CMakeFiles/hello.dir/cycleLink.cpp.o"
+"CMakeFiles/hello.dir/DoubleLinkedList.cpp.o"
 
 # External object files for target hello
 hello_EXTERNAL_OBJECTS =
 
-hello: CMakeFiles/hello.dir/cycleLink.cpp.o
+hello: CMakeFiles/hello.dir/DoubleLinkedList.cpp.o
 hello: CMakeFiles/hello.dir/build.make
 hello: CMakeFiles/hello.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hello"

@@ -123,32 +123,32 @@ hello/fast:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
-cycleLink.o: cycleLink.cpp.o
+DoubleLinkedList.o: DoubleLinkedList.cpp.o
 
-.PHONY : cycleLink.o
+.PHONY : DoubleLinkedList.o
 
 # target to build an object file
-cycleLink.cpp.o:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/cycleLink.cpp.o
-.PHONY : cycleLink.cpp.o
+DoubleLinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/DoubleLinkedList.cpp.o
+.PHONY : DoubleLinkedList.cpp.o
 
-cycleLink.i: cycleLink.cpp.i
+DoubleLinkedList.i: DoubleLinkedList.cpp.i
 
-.PHONY : cycleLink.i
+.PHONY : DoubleLinkedList.i
 
 # target to preprocess a source file
-cycleLink.cpp.i:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/cycleLink.cpp.i
-.PHONY : cycleLink.cpp.i
+DoubleLinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/DoubleLinkedList.cpp.i
+.PHONY : DoubleLinkedList.cpp.i
 
-cycleLink.s: cycleLink.cpp.s
+DoubleLinkedList.s: DoubleLinkedList.cpp.s
 
-.PHONY : cycleLink.s
+.PHONY : DoubleLinkedList.s
 
 # target to generate assembly for a file
-cycleLink.cpp.s:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/cycleLink.cpp.s
-.PHONY : cycleLink.cpp.s
+DoubleLinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/DoubleLinkedList.cpp.s
+.PHONY : DoubleLinkedList.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hello"
-	@echo "... cycleLink.o"
-	@echo "... cycleLink.i"
-	@echo "... cycleLink.s"
+	@echo "... DoubleLinkedList.o"
+	@echo "... DoubleLinkedList.i"
+	@echo "... DoubleLinkedList.s"
 .PHONY : help
 
 
