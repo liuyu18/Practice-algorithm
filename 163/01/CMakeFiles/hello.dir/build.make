@@ -57,45 +57,30 @@ include CMakeFiles/hello.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hello.dir/flags.make
 
-CMakeFiles/hello.dir/arrayTable.cpp.o: CMakeFiles/hello.dir/flags.make
-CMakeFiles/hello.dir/arrayTable.cpp.o: arrayTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/arrayTable.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello.dir/arrayTable.cpp.o -c /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/arrayTable.cpp
+CMakeFiles/hello.dir/LinkRevse.cpp.o: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/LinkRevse.cpp.o: LinkRevse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/LinkRevse.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello.dir/LinkRevse.cpp.o -c /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/LinkRevse.cpp
 
-CMakeFiles/hello.dir/arrayTable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/arrayTable.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/arrayTable.cpp > CMakeFiles/hello.dir/arrayTable.cpp.i
+CMakeFiles/hello.dir/LinkRevse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/LinkRevse.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/LinkRevse.cpp > CMakeFiles/hello.dir/LinkRevse.cpp.i
 
-CMakeFiles/hello.dir/arrayTable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/arrayTable.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/arrayTable.cpp -o CMakeFiles/hello.dir/arrayTable.cpp.s
-
-CMakeFiles/hello.dir/Revse.cpp.o: CMakeFiles/hello.dir/flags.make
-CMakeFiles/hello.dir/Revse.cpp.o: Revse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hello.dir/Revse.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello.dir/Revse.cpp.o -c /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/Revse.cpp
-
-CMakeFiles/hello.dir/Revse.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/Revse.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/Revse.cpp > CMakeFiles/hello.dir/Revse.cpp.i
-
-CMakeFiles/hello.dir/Revse.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/Revse.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/Revse.cpp -o CMakeFiles/hello.dir/Revse.cpp.s
+CMakeFiles/hello.dir/LinkRevse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/LinkRevse.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/LinkRevse.cpp -o CMakeFiles/hello.dir/LinkRevse.cpp.s
 
 # Object files for target hello
 hello_OBJECTS = \
-"CMakeFiles/hello.dir/arrayTable.cpp.o" \
-"CMakeFiles/hello.dir/Revse.cpp.o"
+"CMakeFiles/hello.dir/LinkRevse.cpp.o"
 
 # External object files for target hello
 hello_EXTERNAL_OBJECTS =
 
-hello: CMakeFiles/hello.dir/arrayTable.cpp.o
-hello: CMakeFiles/hello.dir/Revse.cpp.o
+hello: CMakeFiles/hello.dir/LinkRevse.cpp.o
 hello: CMakeFiles/hello.dir/build.make
 hello: CMakeFiles/hello.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/01/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hello"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1.1)
 project(hello)
 add_compile_options(-std=c++11)
-set(SRC_LIST  Revse.cpp)
+set(SRC_LIST  LinkRevse.cpp)
 add_executable(hello ${SRC_LIST})

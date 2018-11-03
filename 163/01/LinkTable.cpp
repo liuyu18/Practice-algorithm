@@ -160,7 +160,7 @@ void ShowLkList(LinkListNode* pHead){
 }
 
 
-int main(void) {
+int main1(void) {
 	ElemType MySeq[] = { 1,2,3,4,5 };
 	LinkListNode* pHead = Create_Rear_LkList(MySeq, 5);
 	printf("\n========显示初始化后单链表中的全部元素========\n");

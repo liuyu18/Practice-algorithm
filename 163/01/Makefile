@@ -123,59 +123,32 @@ hello/fast:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
-Revse.o: Revse.cpp.o
+LinkRevse.o: LinkRevse.cpp.o
 
-.PHONY : Revse.o
-
-# target to build an object file
-Revse.cpp.o:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/Revse.cpp.o
-.PHONY : Revse.cpp.o
-
-Revse.i: Revse.cpp.i
-
-.PHONY : Revse.i
-
-# target to preprocess a source file
-Revse.cpp.i:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/Revse.cpp.i
-.PHONY : Revse.cpp.i
-
-Revse.s: Revse.cpp.s
-
-.PHONY : Revse.s
-
-# target to generate assembly for a file
-Revse.cpp.s:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/Revse.cpp.s
-.PHONY : Revse.cpp.s
-
-arrayTable.o: arrayTable.cpp.o
-
-.PHONY : arrayTable.o
+.PHONY : LinkRevse.o
 
 # target to build an object file
-arrayTable.cpp.o:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/arrayTable.cpp.o
-.PHONY : arrayTable.cpp.o
+LinkRevse.cpp.o:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/LinkRevse.cpp.o
+.PHONY : LinkRevse.cpp.o
 
-arrayTable.i: arrayTable.cpp.i
+LinkRevse.i: LinkRevse.cpp.i
 
-.PHONY : arrayTable.i
+.PHONY : LinkRevse.i
 
 # target to preprocess a source file
-arrayTable.cpp.i:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/arrayTable.cpp.i
-.PHONY : arrayTable.cpp.i
+LinkRevse.cpp.i:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/LinkRevse.cpp.i
+.PHONY : LinkRevse.cpp.i
 
-arrayTable.s: arrayTable.cpp.s
+LinkRevse.s: LinkRevse.cpp.s
 
-.PHONY : arrayTable.s
+.PHONY : LinkRevse.s
 
 # target to generate assembly for a file
-arrayTable.cpp.s:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/arrayTable.cpp.s
-.PHONY : arrayTable.cpp.s
+LinkRevse.cpp.s:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/LinkRevse.cpp.s
+.PHONY : LinkRevse.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hello"
-	@echo "... Revse.o"
-	@echo "... Revse.i"
-	@echo "... Revse.s"
-	@echo "... arrayTable.o"
-	@echo "... arrayTable.i"
-	@echo "... arrayTable.s"
+	@echo "... LinkRevse.o"
+	@echo "... LinkRevse.i"
+	@echo "... LinkRevse.s"
 .PHONY : help
 
 

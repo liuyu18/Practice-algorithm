@@ -16,7 +16,7 @@ void RevseSeqList(SequenList *pList){
     }
 }
 
-int main(void) {
+int main1(void) {
 	pGlobalSeq=InitSeq();
 	for (int i = 0;i < 10;i++) {
 		InsertElemSqList(pGlobalSeq, i * 2, i);
