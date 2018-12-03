@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/Stack/SeqStack.cpp
+stdio.h
+-
+

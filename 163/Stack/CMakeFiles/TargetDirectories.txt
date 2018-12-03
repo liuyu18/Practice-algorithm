@@ -1,0 +1,3 @@
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/Stack/CMakeFiles/rebuild_cache.dir
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/Stack/CMakeFiles/edit_cache.dir
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/163/Stack/CMakeFiles/StackDemo.dir
