@@ -6,5 +6,6 @@
         "__split_buffer": "cpp",
         "string": "cpp",
         "string_view": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
