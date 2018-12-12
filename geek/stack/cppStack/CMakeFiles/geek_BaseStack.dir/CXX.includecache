@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/geek/stack/cppStack/StackBasedOnArray.cpp
+iostream
+-
+StackBasedOnArray.h
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/geek/stack/cppStack/StackBasedOnArray.h
+
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/geek/stack/cppStack/StackBasedOnArray.h
+

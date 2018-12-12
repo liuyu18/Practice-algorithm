@@ -1,0 +1,3 @@
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/geek/array/CMakeFiles/rebuild_cache.dir
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/geek/array/CMakeFiles/edit_cache.dir
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/geek/array/CMakeFiles/geek_array.dir
