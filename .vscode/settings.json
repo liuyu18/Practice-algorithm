@@ -5,7 +5,8 @@
         "vector": "cpp",
         "__split_buffer": "cpp",
         "string": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "ios": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
