@@ -6,7 +6,8 @@
         "__split_buffer": "cpp",
         "string": "cpp",
         "string_view": "cpp",
-        "ios": "c"
+        "ios": "c",
+        "__mutex_base": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
