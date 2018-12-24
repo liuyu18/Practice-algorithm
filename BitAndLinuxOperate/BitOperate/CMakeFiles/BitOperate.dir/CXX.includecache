@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/BitAndLinuxOperate/BitOperate/bit1.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+bitset
+-
+
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/BitAndLinuxOperate/BitOperate/main.cpp
+stdio.h
+-
+bit1.cpp
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/BitAndLinuxOperate/BitOperate/bit1.cpp
+

@@ -1,0 +1,3 @@
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/BitAndLinuxOperate/BitOperate/CMakeFiles/rebuild_cache.dir
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/BitAndLinuxOperate/BitOperate/CMakeFiles/edit_cache.dir
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/BitAndLinuxOperate/BitOperate/CMakeFiles/BitOperate.dir

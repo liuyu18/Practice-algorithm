@@ -7,7 +7,9 @@
         "string": "cpp",
         "string_view": "cpp",
         "ios": "c",
-        "__mutex_base": "c"
+        "__mutex_base": "c",
+        "bitset": "cpp",
+        "ostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
