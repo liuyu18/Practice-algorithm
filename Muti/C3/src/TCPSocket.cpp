@@ -47,6 +47,19 @@ int32_t TCPSocket::Receive(void *inData,size_t inLen){
 	return bytesReceivedCount;
 }
 
-int TCPSocket::Bind(const SocketAddress &inBindAddress){
-    
+int TCPSocket::Bind( const SocketAddress& inBindAddress ){
+	int error = bind( mSocket, &inBindAddress.mSockAddr, inBindAddress.GetSize() );
+	if( error != 0 ){
+		SocketUtil::ReportError( "TCPSocket::Bind" );
+		return SocketUtil::GetLastError();
+	}
+	return NO_ERROR;
+}
+
+TCPSocket::~TCPSocket(){
+#if _WIN32
+	closesocket( mSocket );
+#else
+	close( mSocket );
+#endif
 }
