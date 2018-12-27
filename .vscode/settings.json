@@ -9,7 +9,9 @@
         "ios": "c",
         "__mutex_base": "c",
         "bitset": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "queue": "c",
+        "algorithm": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

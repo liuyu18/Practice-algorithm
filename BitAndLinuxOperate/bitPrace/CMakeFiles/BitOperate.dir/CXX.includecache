@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/BitAndLinuxOperate/bitPrace/main.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+bitset
+-
+
