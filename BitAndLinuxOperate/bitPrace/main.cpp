@@ -56,22 +56,55 @@ int main(int argc, char const *argv[]){
     // cout<<"二进制a1:"<<bitset<8>(a1)<<endl;
     // printf("十六进制a1 --> %X\n", a1);
 
-    int a2 = 201812;
-    cout<<"二进制a2之前:"<<bitset<20>(a2)<<endl;
-    printf("十六进制a2 之前--> %X\n", a2);
-    printf("--------------------------------\n");
-    a2 &= (0x7ff<<7);
+    // int a2 = 201812;
+    // cout<<"二进制a2之前:"<<bitset<20>(a2)<<endl;
+    // printf("十六进制a2 之前--> %X\n", a2);
+    // printf("--------------------------------\n");
+    // a2 &= (0x7ff<<7);
 
-    int tmp = (0x7ff<<7);
-    cout<<"二进制tmp:"<<bitset<20>(tmp)<<endl;
+    // int tmp = (0x7ff<<7);
+    // cout<<"二进制tmp:"<<bitset<20>(tmp)<<endl;
+    // printf("十六进制tmp --> %X\n", tmp);
+    // printf("--------------------------------\n");
+    // cout<<"二进制a2:"<<bitset<20>(a2)<<endl;
+    // printf("十六进制a2 --> %X\n", a2);
+    // printf("--------------------------------\n");
+    // a2>>=7;
+    // cout<<"二进制a2最后:"<<bitset<20>(a2)<<endl;
+    // printf("十六进制a2最后 --> %X\n", a2);
+    // printf("--------------------------------\n");
+
+    int IFrame = 0x65;
+    int NotIFrame = 0x41;
+    int SPS = 0x67;
+    int PPS = 0x68;
+
+    int b = 0x1f;
+
+    cout<<"二进制IFrame:"<<bitset<8>(IFrame)<<endl;
+    printf("十六进制IFrame --> %X\n", IFrame);
+
+    cout<<"二进制NotIFrame:"<<bitset<8>(NotIFrame)<<endl;
+    printf("十六进制NotIFrame --> %X\n", NotIFrame);
+
+    cout<<"二进制SPS:"<<bitset<8>(SPS)<<endl;
+    printf("十六进制SPS --> %X\n", SPS);
+
+    cout<<"二进制PPS:"<<bitset<8>(PPS)<<endl;
+    printf("十六进制PPS --> %X\n", PPS);
+
+
+
+    cout<<"二进制b:"<<bitset<8>(b)<<endl;
+    printf("十六进制b --> %X\n", b);
+
+
+
+
+    int tmp = (IFrame&b);
+    cout<<"二进制tmp:"<<bitset<8>(tmp)<<endl;
     printf("十六进制tmp --> %X\n", tmp);
-    printf("--------------------------------\n");
-    cout<<"二进制a2:"<<bitset<20>(a2)<<endl;
-    printf("十六进制a2 --> %X\n", a2);
-    printf("--------------------------------\n");
-    a2>>=7;
-    cout<<"二进制a2最后:"<<bitset<20>(a2)<<endl;
-    printf("十六进制a2最后 --> %X\n", a2);
-    printf("--------------------------------\n");
+
+
     return 0;
 }
