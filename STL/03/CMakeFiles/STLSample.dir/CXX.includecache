@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/sample.cpp
+iostream
+-
+string
+-
+bitset
+-
+vector
+-
+

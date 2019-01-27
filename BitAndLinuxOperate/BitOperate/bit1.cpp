@@ -14,6 +14,9 @@ unsigned int c = a >> 2;
 cout << hex << b << endl; //输出十六进制数
 cout<<"二进制    "<<bitset<8>(b)<<"   "<<bitset<16>(b)<<endl;
 
+
+
+
     // printf("二进制 --> %s\n", b);
     // printf("二进制 --> %s\n", c);
 
