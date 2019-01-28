@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/BoostOperate.dir/main.cpp.o CMakeFiles/BoostOperate.dir/aglo.cpp.o  -o BoostOperate -rdynamic 
