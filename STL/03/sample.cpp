@@ -42,10 +42,15 @@ public:
 	}
 private:
 	string m_name;
-	vector<MyAttend<31>> v;//故障记录集合
+	vector< MyAttend<31> > v;//故障记录集合
 };
 
 int main() {
+
+
+
+    // printf("hello world\n");
+
 	Device d1("加工中心");
 	string s1 = "1111110001011101000101010101011";
 	/*string s2 = "1000 1

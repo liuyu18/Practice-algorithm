@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03
+CMAKE_SOURCE_DIR = /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03
+CMAKE_BINARY_DIR = /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/CMakeFiles /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/CMakeFiles /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,86 @@ STLSample/fast:
 	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/build
 .PHONY : STLSample/fast
 
-Map.o: Map.cpp.o
+TemplateClass.o: TemplateClass.cpp.o
 
-.PHONY : Map.o
+.PHONY : TemplateClass.o
 
 # target to build an object file
-Map.cpp.o:
-	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/Map.cpp.o
-.PHONY : Map.cpp.o
+TemplateClass.cpp.o:
+	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/TemplateClass.cpp.o
+.PHONY : TemplateClass.cpp.o
 
-Map.i: Map.cpp.i
+TemplateClass.i: TemplateClass.cpp.i
 
-.PHONY : Map.i
+.PHONY : TemplateClass.i
 
 # target to preprocess a source file
-Map.cpp.i:
-	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/Map.cpp.i
-.PHONY : Map.cpp.i
+TemplateClass.cpp.i:
+	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/TemplateClass.cpp.i
+.PHONY : TemplateClass.cpp.i
 
-Map.s: Map.cpp.s
+TemplateClass.s: TemplateClass.cpp.s
 
-.PHONY : Map.s
+.PHONY : TemplateClass.s
 
 # target to generate assembly for a file
-Map.cpp.s:
-	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/Map.cpp.s
-.PHONY : Map.cpp.s
+TemplateClass.cpp.s:
+	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/TemplateClass.cpp.s
+.PHONY : TemplateClass.cpp.s
+
+Tool.o: Tool.cpp.o
+
+.PHONY : Tool.o
+
+# target to build an object file
+Tool.cpp.o:
+	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/Tool.cpp.o
+.PHONY : Tool.cpp.o
+
+Tool.i: Tool.cpp.i
+
+.PHONY : Tool.i
+
+# target to preprocess a source file
+Tool.cpp.i:
+	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/Tool.cpp.i
+.PHONY : Tool.cpp.i
+
+Tool.s: Tool.cpp.s
+
+.PHONY : Tool.s
+
+# target to generate assembly for a file
+Tool.cpp.s:
+	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/Tool.cpp.s
+.PHONY : Tool.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/STLSample.dir/build.make CMakeFiles/STLSample.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... STLSample"
-	@echo "... Map.o"
-	@echo "... Map.i"
-	@echo "... Map.s"
+	@echo "... TemplateClass.o"
+	@echo "... TemplateClass.i"
+	@echo "... TemplateClass.s"
+	@echo "... Tool.o"
+	@echo "... Tool.i"
+	@echo "... Tool.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

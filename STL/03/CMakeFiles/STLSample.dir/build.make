@@ -57,27 +57,27 @@ include CMakeFiles/STLSample.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/STLSample.dir/flags.make
 
-CMakeFiles/STLSample.dir/sample.cpp.o: CMakeFiles/STLSample.dir/flags.make
-CMakeFiles/STLSample.dir/sample.cpp.o: sample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STLSample.dir/sample.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/STLSample.dir/sample.cpp.o -c /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/sample.cpp
+CMakeFiles/STLSample.dir/Map.cpp.o: CMakeFiles/STLSample.dir/flags.make
+CMakeFiles/STLSample.dir/Map.cpp.o: Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STLSample.dir/Map.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/STLSample.dir/Map.cpp.o -c /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/Map.cpp
 
-CMakeFiles/STLSample.dir/sample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STLSample.dir/sample.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/sample.cpp > CMakeFiles/STLSample.dir/sample.cpp.i
+CMakeFiles/STLSample.dir/Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STLSample.dir/Map.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/Map.cpp > CMakeFiles/STLSample.dir/Map.cpp.i
 
-CMakeFiles/STLSample.dir/sample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STLSample.dir/sample.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/sample.cpp -o CMakeFiles/STLSample.dir/sample.cpp.s
+CMakeFiles/STLSample.dir/Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STLSample.dir/Map.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/Map.cpp -o CMakeFiles/STLSample.dir/Map.cpp.s
 
 # Object files for target STLSample
 STLSample_OBJECTS = \
-"CMakeFiles/STLSample.dir/sample.cpp.o"
+"CMakeFiles/STLSample.dir/Map.cpp.o"
 
 # External object files for target STLSample
 STLSample_EXTERNAL_OBJECTS =
 
-STLSample: CMakeFiles/STLSample.dir/sample.cpp.o
+STLSample: CMakeFiles/STLSample.dir/Map.cpp.o
 STLSample: CMakeFiles/STLSample.dir/build.make
 STLSample: CMakeFiles/STLSample.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable STLSample"

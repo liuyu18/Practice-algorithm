@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/STLSample.dir/Map.cpp.o"
+  "CMakeFiles/STLSample.dir/main.cpp.o"
+  "CMakeFiles/STLSample.dir/Tool.cpp.o"
+  "CMakeFiles/STLSample.dir/TemplateClass.cpp.o"
   "STLSample.pdb"
   "STLSample"
 )

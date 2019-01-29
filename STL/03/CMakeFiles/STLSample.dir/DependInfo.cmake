@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/sample.cpp" "/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/CMakeFiles/STLSample.dir/sample.cpp.o"
+  "/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/Map.cpp" "/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/03/CMakeFiles/STLSample.dir/Map.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
