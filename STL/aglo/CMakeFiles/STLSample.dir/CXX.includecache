@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/TemplateClass.cpp
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/Tool.cpp
+Tool.h
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/Tool.h
+iostream
+-
 algorithm
 -
 functional
 -
 
 /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/Tool.h
-
-/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/main.cpp
-Tool.h
-/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/Tool.h
-TemplateClass.cpp
-/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/TemplateClass.cpp
-iostream
--
 
