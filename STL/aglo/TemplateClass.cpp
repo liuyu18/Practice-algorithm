@@ -1,8 +1,8 @@
 #include <algorithm>
 #include <functional>
 using namespace std;
-template<class T,class _outPara>
-class PrintInfo:public unary_function<T,_outPara>{
+template< class T,class _outPara >
+class PrintInfo:public unary_function< T,_outPara >{
     public:
     PrintInfo():m_count(0),m_nSum(0){}
     T __get_sp_mut(){

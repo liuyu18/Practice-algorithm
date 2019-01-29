@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,29 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/Practice-algorithm/STL/aglo/TemplateClass.cpp
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/TemplateClass.cpp
 algorithm
 -
 functional
 -
 
-/home/ubuntu/Practice-algorithm/STL/aglo/Tool.cpp
-Tool.h
-/home/ubuntu/Practice-algorithm/STL/aglo/Tool.h
-iostream
--
-algorithm
--
-functional
--
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/Tool.h
 
-/home/ubuntu/Practice-algorithm/STL/aglo/Tool.h
-
-/home/ubuntu/Practice-algorithm/STL/aglo/main.cpp
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/main.cpp
 Tool.h
-/home/ubuntu/Practice-algorithm/STL/aglo/Tool.h
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/Tool.h
 TemplateClass.cpp
-/home/ubuntu/Practice-algorithm/STL/aglo/TemplateClass.cpp
+/Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/TemplateClass.cpp
 iostream
 -
 
