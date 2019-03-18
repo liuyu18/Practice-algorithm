@@ -9,11 +9,19 @@
 /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/Tool.cpp
 Tool.h
 /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/Tool.h
-iostream
--
 algorithm
 -
-functional
+string
+-
+iostream
+-
+bitset
+-
+array
+-
+list
+-
+iterator
 -
 
 /Users/yumaowangluokejiyouxiangongsi/Desktop/Practice-algorithm/STL/aglo/Tool.h

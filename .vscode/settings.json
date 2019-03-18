@@ -11,7 +11,8 @@
         "bitset": "cpp",
         "ostream": "cpp",
         "queue": "c",
-        "algorithm": "c"
+        "algorithm": "c",
+        "__tuple": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
