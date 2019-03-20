@@ -12,7 +12,9 @@
         "ostream": "cpp",
         "queue": "c",
         "algorithm": "c",
-        "__tuple": "cpp"
+        "__tuple": "cpp",
+        "iostream": "cpp",
+        "locale": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
