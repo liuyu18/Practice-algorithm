@@ -1,26 +1,17 @@
 
-#include <vector>
+#include "printMatrix.h"
+
 using namespace std;
 
-class Solution
-{
-private:
-    /* data */
-public:
-    Solution(/* args */);
-    ~Solution();
-    vector<int> printMethod(vector<vector<int> > matrix);
-};
-
-Solution::Solution(/* args */)
+printMatrix::printMatrix(/* args */)
 {
 }
 
-Solution::~Solution()
+printMatrix::~printMatrix()
 {
 }
 
-vector<int> Solution::printMethod(vector<vector<int> > matrix){
+vector<int> printMatrix::printMethod(vector<vector<int> > matrix){
    int rows, columns;
         if(matrix.size()>0)
         {

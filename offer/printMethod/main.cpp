@@ -1,6 +1,9 @@
-#include "printMatrix.cxx"
-#include <vector>
+
+
 #include <iostream>
+
+#include "printMatrix.h"
+
 using namespace std;
 int main(){
 vector<vector<int> > datas(0, vector<int> (4));
@@ -31,6 +34,13 @@ for(IE=datas.begin();IE<datas.end();IE++){
 		cout<<endl;
 	}
 
-    // printMatrix *obj = new printMatrix();
-    // obj->printMethod(board);
+    printMatrix *obj = new printMatrix();
+    vector<int> result = obj->printMethod(datas);
+	// vector<int>::iterator it;
+	for (std::vector<int>::iterator iter = result.begin(); iter != result.end(); iter++)
+	{
+		/* code */
+		cout<<"result :"<<*iter<<endl;
+	}
+
 }
