@@ -1,6 +1,7 @@
 #include <iostream>
 // #include "printMatrix.h"
-#include "Permutation.h"
+// #include "Permutation.h"
+#include "Solution.h"
 
 using namespace std;
 
@@ -43,10 +44,15 @@ int main(){
 // 	}
 
 
-	Permutation *obj = new Permutation();
-	string stringData("ab");
-	vector<string> result = obj->PermutationString(stringData);
-	for (std::vector<string>::iterator iter = result.begin(); iter != result.end(); iter++){
-		cout<<"result :"<<*iter<<endl;
-	}
+	// Permutation *obj = new Permutation();
+	// string stringData("ab");
+	// vector<string> result = obj->PermutationString(stringData);
+	// for (std::vector<string>::iterator iter = result.begin(); iter != result.end(); iter++){
+	// 	cout<<"result :"<<*iter<<endl;
+	// }
+
+
+	Solution *obj = new Solution();
+	int index = obj->FirstNotRepeatingChar("abaanmkdkpeookfo");
+	cout<<"index :"<<index<<endl;
 }
