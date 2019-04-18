@@ -76,7 +76,93 @@ public class SortTool {
             left = index * 2 + 1;
         }
     }
+    // 快排 原理就是 选一个参照点
+    public static void quickSort(int[] arr) {
+        if (arr == null || arr.length < 2){
+            return;
+        }
+        quickSort(arr, 0, arr.length - 1);
+    }
+    public static void quickSort(int[] arr, int l, int r) {
+        if (l < r){
+            swap(arr,l + (int)(Math.random()*(r - l + 1)),r);
+            int[] p = partition(arr,l,r);
+            quickSort(arr,l,p[0] - 1);
+            quickSort(arr,p[1] + 1,r);
+        }
+    }
+    //划分辅助函数
+    public static int[] partition(int[] arr, int l, int r){
+        //左右指针
+        int less = l - 1;
+        int more = r;
+        while (l < more){
+            if (arr[l] < arr[r]){
+                swap(arr,++less,l++);
+            }else if(arr[l] > arr[r]){
+                swap(arr, --more, l);
+            }else{
+                l++;
+            }
+        }
+        swap(arr,more,r);
+        return new int[]{less + 1,more};
+    }
 
+
+    public static void mergeSort(int[] arr) {
+        if (arr == null || arr.length < 2) {
+            return;
+        }
+        mergeSort(arr, 0, arr.length - 1);
+    }
+
+    public static void mergeSort(int[] arr, int l, int r) {
+        if (l == r) {
+            return;
+        }
+        int mid = l + ((r - l) >> 1);
+        mergeSort(arr, l, mid);
+
+        mergeSort(arr, mid + 1, r);
+
+        merge(arr, l, mid, r);
+    }
+
+    public static void merge(int[] arr, int l, int m, int r) {
+
+        System.out.println("--------------------");
+
+        System.out.println("arr 前:"+Arrays.toString(arr));
+        System.out.println("l:"+l);
+        System.out.println("r:"+r);
+        System.out.println("mid:"+m);
+
+
+        int[] help = new int[r - l + 1];
+        int i = 0;
+        int p1 = l;
+        int p2 = m + 1;
+        while (p1 <= m && p2 <= r) {
+            System.out.println("arr[p1] 第一个IF:"+arr[p1]+",p1 :"+p1);
+            System.out.println("arr[p2] 第一个IF:"+arr[p2]+",p2 :"+p2);
+            help[i++] = arr[p1] < arr[p2] ? arr[p1++] : arr[p2++];
+        }
+        while (p1 <= m) {
+            System.out.println("arr[p1] 第二个IF:"+arr[p1]+",p1" + p1);
+            help[i++] = arr[p1++];
+        }
+        while (p2 <= r) {
+            System.out.println("arr[p2] 第三个IF:"+arr[p2]+",p2 :"+p2);
+            help[i++] = arr[p2++];
+        }
+        for (i = 0; i < help.length; i++) {
+            arr[l + i] = help[i];
+        }
+        System.out.println("help 后:"+Arrays.toString(help));
+        System.out.println("arr 后:"+Arrays.toString(arr));
+        System.out.println("--------------------");
+    }
 
     public static void swap(int[] arr, int i, int j) {
         arr[i] = arr[i] ^ arr[j];
@@ -143,7 +229,7 @@ public class SortTool {
     // for test
     public static void main(String[] args) {
         int testTime = 500000;
-        int maxSize = 100;
+        int maxSize = 10;
         int maxValue = 100;
         boolean succeed = true;
         for (int i = 0; i < testTime; i++) {
@@ -160,7 +246,7 @@ public class SortTool {
 
         int[] arr = generateRandomArray(maxSize, maxValue);
         printArray(arr);
-        heapSort(arr);
+        mergeSort(arr);
         printArray(arr);
     }
 
