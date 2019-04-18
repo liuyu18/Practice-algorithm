@@ -1,6 +1,5 @@
 import java.util.Arrays;
-
-public class Code_00_BubbleSort {
+public class SortTool {
 
     public static void bubbleSort(int[] arr) {
         if (arr == null || arr.length < 2) {
@@ -13,6 +12,31 @@ public class Code_00_BubbleSort {
                     swap(arr, i, i + 1);
                 }
             }
+        }
+    }
+    //插入排序
+    public static void insertionSort(int[] arr){
+        if (arr == null || arr.length < 2){
+            //插入排序 是前面的部分是排序好的了 是排序好的那个部分后面那个元素 要从排序好的部分找到
+            //何时位置
+            for (int i = 1;i < arr.length;i++){
+                for (int j = i - 1;j >= 0 && arr[j]>arr[j+1];j--){
+                    swap(arr, j, j + 1);
+                }
+            }
+        }
+    }
+    //选择排序
+    public static void selectionSort(int[] arr) {
+        if (arr == null || arr.length < 2) {
+            return;
+        }
+        for (int i = 0;i < arr.length - 1;i++){
+            int minIndex = i;
+            for (int j = i + 1;j < arr.length;j++){
+                minIndex = arr[j] < arr[minIndex]?j:minIndex;
+            }
+            swap(arr, i, minIndex);
         }
     }
 
