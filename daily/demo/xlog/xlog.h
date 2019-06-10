@@ -1,5 +1,0 @@
-class XLog
-{
-public:
-	XLog();
-};

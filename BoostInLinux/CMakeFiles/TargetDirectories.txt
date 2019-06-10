@@ -1,3 +1,0 @@
-/home/ubuntu/Practice-algorithm/BoostInLinux/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/Practice-algorithm/BoostInLinux/CMakeFiles/edit_cache.dir
-/home/ubuntu/Practice-algorithm/BoostInLinux/CMakeFiles/BoostOperate.dir

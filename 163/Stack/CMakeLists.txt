@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.1.1)
-project(StackDemo)
-add_compile_options(-std=c++11)
-set(SRC_LIST  SeqStack.cpp)
-add_executable(StackDemo ${SRC_LIST})

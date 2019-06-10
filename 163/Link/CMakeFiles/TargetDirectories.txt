@@ -1,3 +1,0 @@
-/home/ubuntu/Practice-algorithm/163/01/CMakeFiles/edit_cache.dir
-/home/ubuntu/Practice-algorithm/163/01/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/Practice-algorithm/163/01/CMakeFiles/hello.dir
