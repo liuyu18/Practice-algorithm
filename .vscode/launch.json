@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SparseArrayTest",
+            "request": "launch",
+            "mainClass": "SparseArrayTest",
+            "projectName": "Practice-algorithm_4b5c02be"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SparseArray",
+            "request": "launch",
+            "mainClass": "SparseArray",
+            "projectName": "Practice-algorithm_4b5c02be"
+        }
+    ]
+}

@@ -16,5 +16,6 @@
         "iostream": "cpp",
         "locale": "cpp"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "maven.terminal.useJavaHome": true
 }
