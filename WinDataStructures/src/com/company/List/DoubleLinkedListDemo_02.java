@@ -129,7 +129,7 @@ public class DoubleLinkedListDemo_02 {
     }
 
     class HeroNode {
-        private int no;
+        public int no;
         public String name;
         public String nickName;
         public HeroNode next;
@@ -142,7 +142,7 @@ public class DoubleLinkedListDemo_02 {
         }
 
         public String toString(){
-            return "HeroNode [no=" + no + ", name=" + name + ", nickname=" + nickname + "]";
+            return "HeroNode [no=" + no + ", name=" + name + ", nickname=" + nickName + "]";
         }
     }
 
