@@ -17,5 +17,6 @@
         "locale": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
-    "maven.terminal.useJavaHome": true
+    "maven.terminal.useJavaHome": true,
+    "python.pythonPath": "venv\\Scripts\\python.exe"
 }
